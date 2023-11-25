@@ -30,7 +30,7 @@
   }
   
   .productsCategorie button {
-    background-color: #dc3545; /* Color rojo */
+    
     color: #ffffff; /* Texto blanco */
     padding: 10px 15px;
     border: none;
@@ -39,6 +39,4 @@
     transition: background-color 0.3s ease;
   }
   
-  .productsCategorie button:hover {
-    background-color: #c82333; /* Color rojo más oscuro al pasar el ratón */
-  }
+  

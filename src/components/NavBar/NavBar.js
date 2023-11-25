@@ -15,13 +15,13 @@ const NavBar = () => {
                             </Link>
                         
                     
-                            <NavLink to={`/category/indumentaria`} className={({isActive})=> isActive ? 'ActiveOption' : 'Option'}>Indumentaria</NavLink>
+                            <NavLink to={`/category/indumentaria`} className={({isActive})=> isActive ? 'ActiveOption' : 'button'}>Indumentaria</NavLink>
                         
                         
-                            <NavLink to={`/category/sahumerio`} className={({isActive})=> isActive ? 'ActiveOption' : 'Option'}>Sahumerios</NavLink>
+                            <NavLink to={`/category/sahumerio`} className={({isActive})=> isActive ? 'ActiveOption' : 'button'}>Sahumerios</NavLink>
                         
                     
-                            <NavLink to={`/category/decoracion`} className={({isActive})=> isActive ? 'ActiveOption' : 'Option'}>Decoracion</NavLink>
+                            <NavLink to={`/category/decoracion`} className={({isActive})=> isActive ? 'ActiveOption' : 'button'}>Decoracion</NavLink>
                         
                         
                         

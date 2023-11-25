@@ -16,7 +16,6 @@ const CheckoutForm = ({onConfirm}) => {
         }
 
 
-        console.log('la data que llega',userData)
         onConfirm(userData)
     }
 
@@ -48,7 +47,7 @@ const CheckoutForm = ({onConfirm}) => {
                     </div>
                 </div>
                 <div className='row'>
-                    <button type='submit'>Confirmar compra</button>
+                    <button className='button' type='submit'>Confirmar compra</button>
                 </div>
             </form>
         </div>

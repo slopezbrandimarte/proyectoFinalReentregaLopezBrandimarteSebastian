@@ -19,7 +19,7 @@ const ItemDetail = ({id, nombre, imagen, precio, stock, descripcion, categoria})
         }
 
         addItem(item, quantity)
-        console.log(`Se agrego ${quantity} item ${item}al carrito`)
+        
     
     }
 
@@ -47,7 +47,7 @@ const ItemDetail = ({id, nombre, imagen, precio, stock, descripcion, categoria})
             </p>
             
             <footer className='ItemFooter'>
-                {quantityAdded > 0 ? (<Link to={`/cart`} className='Option'>Terminar mi compra</Link>)
+                {quantityAdded > 0 ? (<Link to={`/cart`} className='button'>Terminar mi compra</Link>)
                 : 
 
                 (<ItemCount initial={1} stock={stock} onAdd={handleOnAdd} />)}

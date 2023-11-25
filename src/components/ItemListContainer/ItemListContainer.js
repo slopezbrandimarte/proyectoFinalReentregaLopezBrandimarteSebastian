@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import ItemList from "../ItemList/ItemList";
 
 import { useParams } from "react-router-dom";
-import { getDocs,collection,where, query } from "firebase/firestore";
+import { getDocs,collection,where, query} from "firebase/firestore";
 import { db } from "../../firebase/Config";
 import "./ItemListContainer.css"
 
@@ -10,17 +10,17 @@ import "./ItemListContainer.css"
 
 const  ItemListContainer = ({greeting}) => {
     const [productos, setProductos] = useState([])
-    const {categoriaId} = useParams()
+    const {categoryId} = useParams()
 
     
 
-
+    console.log("la categoria es", categoryId)
 
     useEffect(()=>{
         const collectionRef = collection(db,'products')
 
-        const p = categoriaId ? query(collectionRef, where("categoria", "==", categoriaId)) : collectionRef
-
+        const p = categoryId ? query(collectionRef, where("categoria", "==", categoryId)) : collectionRef
+        console.log("la categoria es", collectionRef)
         getDocs(p)
         .then((response)=>{
 
@@ -29,8 +29,9 @@ const  ItemListContainer = ({greeting}) => {
                     return{...doc.data(), id: doc.id}
                 })
             )
+            
         })
-    }, [categoriaId])
+    }, [categoryId])
 
     return(
         <div className="ItemListContainer">

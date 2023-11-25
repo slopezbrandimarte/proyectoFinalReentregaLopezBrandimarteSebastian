@@ -1,4 +1,9 @@
-.cardItem {
+*{
+    padding: 0;
+    margin: 0;
+}
+
+article.cardItem {
     display: flex;
     flex-direction: column;
     border: 1px solid #ccc;
@@ -8,6 +13,7 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     width: 350px;
+    padding: 0px;
 }
 
 .Header {
@@ -24,8 +30,8 @@
 .ItemImg {
     width: 100%;
     height: auto;
-    max-width: 300px; /* Tamaño máximo para las imágenes */
-    max-height: 300px; /* Tamaño máximo para las imágenes */
+    max-width: 300px; 
+    max-height: 300px; 
 }
 
 .Info {
@@ -41,7 +47,7 @@
 }
 
 .option {
-    background-color: #4CAF50; /* Cambié el color a verde */
+    background-color: #4CAF50; 
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -49,16 +55,17 @@
     cursor: pointer;
     border-radius: 6px;
     transition: background-color 0.3s ease;
+    align-items: center;
 }
 
 .option:hover {
-    background-color: #45a049; /* Cambié el color al tono más oscuro */
+    background-color: #45a049; 
 }
 
 .addToCart {
     width: 20px;
     height: 20px;
-    fill: #fff; /* Cambié el color del icono a blanco */
+    fill: #fff; 
 }
 
 /* Ajustes adicionales para una apariencia más limpia */

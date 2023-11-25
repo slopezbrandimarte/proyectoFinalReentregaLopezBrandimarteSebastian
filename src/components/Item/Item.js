@@ -3,7 +3,7 @@ import './Item.css'
 import { Link } from 'react-router-dom'
 
 function Item  ({ nombre, imagen, precio, stock, id}){
-    console.log("la data de Item",nombre, imagen, precio, stock, id)
+
 
 
     return (
@@ -24,7 +24,7 @@ function Item  ({ nombre, imagen, precio, stock, id}){
                 Stock disponible: {stock}
             </p>
             <footer className='ItemFooter'>
-                <Link to={`/item/${id}`} className='Option'>Ver detalle</Link>
+                <Link to={`/item/${id}`} className='button'>Ver detalle</Link>
                 
             </footer>
         </section>

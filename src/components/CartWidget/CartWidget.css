@@ -10,9 +10,7 @@
     transition: background-color 0.3s ease;
   }
   
-  .CartWidget:hover {
-    background-color: #0056b3; /* Color azul más oscuro al pasar el ratón */
-  }
+ 
   
   .cart-icon {
     width: 20px;

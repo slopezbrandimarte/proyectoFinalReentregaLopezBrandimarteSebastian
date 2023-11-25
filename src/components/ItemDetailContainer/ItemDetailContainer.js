@@ -10,7 +10,7 @@ const ItemDetailContainer = () => {
     const [loading, setLoading] = useState(true)
 
     const{ itemId } = useParams()
-  console.log('El Item que llega es: ' , itemId)
+  
 
     useEffect(() => {
         setLoading(true)
@@ -22,7 +22,7 @@ const ItemDetailContainer = () => {
                 const productAdaptated = {id: response.id, ...data}
                 setProduct(productAdaptated)
 
-                console.log('El Item que llega es: ' , productAdaptated)
+                
             })
             .catch(error => {console.error(error)
             })

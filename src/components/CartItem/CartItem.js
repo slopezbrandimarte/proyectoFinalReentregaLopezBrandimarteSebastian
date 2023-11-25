@@ -6,7 +6,7 @@ import './CartItem.css';
 
 
 const CartItem = ({ item, quantity }) => {
-    const { removeProducts} = useContext(CartContext)
+    const { removeItem} = useContext(CartContext)
 
     const subtotal = quantity * item.precio
 
@@ -28,7 +28,7 @@ const CartItem = ({ item, quantity }) => {
                 <p>
                     Subtotal: ${subtotal}
                 </p>
-                <button className='Option' onClick={() => removeProducts(item.id)}>Eliminar</button>
+                <button className='button' onClick={() => removeItem(item.id)}>Eliminar</button>
                 
             </div>
         </div>
