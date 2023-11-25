@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    margin-bottom: 20px;
+  }
+  
+  .imgContainer {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+  }
+  
+  .productsCategorie {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  
+  .productsCategorie h2 {
+    color: #333333; /* Color de texto oscuro */
+    margin: 0;
+  }
+  
+  .productsCategorie p {
+    margin: 5px 0;
+  }
+  
+  .productsCategorie button {
+    background-color: #dc3545; /* Color rojo */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .productsCategorie button:hover {
+    background-color: #c82333; /* Color rojo más oscuro al pasar el ratón */
+  }

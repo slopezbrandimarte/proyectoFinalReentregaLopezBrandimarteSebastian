@@ -1,0 +1,21 @@
+/* CartWidget Styles */
+.CartWidget {
+    background-color: #413f3f; /* Color azul claro */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .CartWidget:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el ratón */
+  }
+  
+  .cart-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }

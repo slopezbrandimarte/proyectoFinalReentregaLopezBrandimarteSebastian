@@ -1,0 +1,82 @@
+.cardItem {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 350px;
+}
+
+.Header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.ItemHeader {
+    margin: 0;
+    font-size: 20px;
+}
+
+.ItemImg {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Tamaño máximo para las imágenes */
+    max-height: 300px; /* Tamaño máximo para las imágenes */
+}
+
+.Info {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.ItemFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.option {
+    background-color: #4CAF50; /* Cambié el color a verde */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #45a049; /* Cambié el color al tono más oscuro */
+}
+
+.addToCart {
+    width: 20px;
+    height: 20px;
+    fill: #fff; /* Cambié el color del icono a blanco */
+}
+
+/* Ajustes adicionales para una apariencia más limpia */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.ListGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}

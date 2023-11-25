@@ -1,0 +1,8 @@
+/* Estilos para ItemList */
+.ListGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Puedes agregar más estilos según tus necesidades */

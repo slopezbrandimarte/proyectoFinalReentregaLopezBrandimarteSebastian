@@ -1,0 +1,30 @@
+/* Estilos para ItemCount */
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin: 0 5px;
+}
+
+.number {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+/* Puedes agregar más estilos según tus necesidades */

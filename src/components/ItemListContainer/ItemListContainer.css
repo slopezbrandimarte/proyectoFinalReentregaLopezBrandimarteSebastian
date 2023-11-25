@@ -1,0 +1,11 @@
+/* Estilos para ItemListContainer */
+.item-list-container {
+  padding: 20px;
+}
+
+.item-list-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Puedes agregar más estilos según tus necesidades */

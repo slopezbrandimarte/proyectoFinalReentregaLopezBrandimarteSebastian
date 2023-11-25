@@ -1,0 +1,61 @@
+/* Estilos para NavBar */
+.navbar {
+   
+    padding: 10px 20px;
+    background-color: #413f3f; /* Color de fondo para la barra de navegación */
+    color: #fff; /* Color del texto */
+    box-shadow: 0px 2px 8px #424242b6; /* Sombra ligera */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+/* Estilos para el título */
+.navbar-title {
+    margin: 0;
+    font-size: 24px; /* Tamaño del texto */
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+.navbar-link {
+    text-decoration: none;
+    color: #fff; /* Color del texto */
+    font-size: 14px; /* Tamaño del texto */
+    margin-right: 10px;
+    transition: color 0.3s ease; /* Efecto de transición al pasar el mouse */
+}
+
+.navbar-link:last-child {
+    margin-right: 0; /* No hay margen derecho para el último enlace */
+}
+
+.navbar-link:hover {
+    color: #777; /* Color del texto al pasar el mouse sobre los enlaces */
+}
+
+/* Estilos para el contenedor del carrito de compras */
+.navbar-cart-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para el ícono de carrito (puedes personalizar según el ícono que utilices) */
+.navbar-cart-icon svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff; /* Color del ícono */
+}
+
+/* Ajustes adicionales para una apariencia más limpia */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    
+}

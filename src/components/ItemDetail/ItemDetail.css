@@ -1,0 +1,29 @@
+/* Estilos para ItemDetail */
+.cardItem {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.ItemHeader {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ItemImg {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.Info {
+    margin-bottom: 10px;
+}
+
+.ItemFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Puedes agregar más estilos según tus necesidades */
